@@ -1,0 +1,44 @@
+div>p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.table-container-2 {
+    margin: 20px auto; 
+    width: 100%;
+    max-width: 800px;
+}
+
+table {
+    align-items: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+thead {
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    background-color: rgb(85, 64, 116);
+}
+
+tbody {
+    border: 1px solid black;
+    text-align: center;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: rgb(129, 100, 173);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}

@@ -1,0 +1,74 @@
+header {
+    padding: 0px; 
+    width: 100%;
+}
+
+.about_img {
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+}
+
+.welcome-2 {
+    width: 100%;
+    text-align: center;
+}
+
+#d3, #d4 {
+    display: inline-block;
+    width: 49%; 
+    vertical-align: top; 
+    box-sizing: border-box; 
+    margin-top: 10px;
+}
+
+#d3 {
+    border: 2px solid black; 
+    padding: 20px;
+    box-shadow: 0px 10px 5px 5px black;
+}
+
+caption {
+    background-color: rgb(85, 64, 116);
+    padding: 10px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+th {
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(118, 118, 171);
+}
+
+tr:nth-child(odd) {
+    background-color: #6600cc;
+}
+
+#d5:hover {
+    background-color: aqua;
+}
+
+@media (max-width: 768px) {
+    #d3, #d4 {
+        width: 100%;
+        display: block;
+    }
+    
+    #d3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+

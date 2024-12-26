@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/all.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="../CSS/design.css" type="text/css" media="screen">
+        <title>Design</title>
+    </head>
+    <body>
+        <header>
+            <img src="../Images/logo.png" alt="Visionary Innovation Hub">
+            <h1 id="visionary">Visionary Innovation Hub</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="design">
+            <h2>Design Page</h2>
+            <h3>Name: Umer Adnan</h3>
+            <h3>SID: 58601963</h3>
+        </div>
+        <div>
+            <h3>JavaScript Event Handler Setup:</h3>
+            <table class="table-container-3">
+                <thead>
+                    <tr>
+                        <th>File</th>
+                        <th>Line</th>
+                        <th>Technique Used</th>
+                        <th>Code Snippet</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>Line 1</td>
+                        <td>Using event listener</td>
+                        <td>document.addEventListener("DOMContentLoaded", function(){})</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 11</td>
+                        <td>Using object property</td>
+                        <td>h1.onclick = f11;</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 21</td>
+                        <td>Using object property</td>
+                        <td>h2.onclick = f22;</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 31</td>
+                        <td>Using object property</td>
+                        <td>h3.onclick = f33;</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 43<br>line 44</td>
+                        <td>Using event listener</td>
+                        <td>forms[i].addEventListener("mouseover" , hover);<br>
+                            forms[i].addEventListener("mouseleave" , unhover);</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 56</td>
+                        <td>Using object property</td>
+                        <td>allbtns[i].onclick = f;</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 163</td>
+                        <td>Using object property</td>
+                        <td>submit.onclick = CheckTable;</td>
+                    </tr>
+                    <tr>
+                        <td>information.js</td>
+                        <td>line 21</td>
+                        <td>Using event listener</td>
+                        <td>document.addEventListener("DOMContentLoaded", function(){})</td>
+                    </tr>
+                    <tr>
+                        <td>information.js</td>
+                        <td>line 29</td>
+                        <td>Using object property</td>
+                        <td>window.onload = f;</td>
+                    </tr>
+                    <tr>
+                        <td>information.js and information.html</td>
+                        <td>function is defined on javascript line 1-18. Html event handler setup on line 33</td>
+                        <td>Using HTML attribute</td>
+                        <td>Declared inside html element as an attribute "onended=f2();"</td>
+                    </tr>
+                    <tr>
+                        <td>visit.js</td>
+                        <td>line 1</td>
+                        <td>Using event listener</td>
+                        <td>document.addEventListener('DOMContentLoaded', function () {})</td>
+                    </tr>
+                    <tr>
+                        <td>visit.js</td>
+                        <td>line 6</td>
+                        <td>Using event listener</td>
+                        <td>btn.addEventListener('click', function () {})</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h3>Use of Let:</h3>
+            <p style="width: 80%; padding-left: 10%; text-align: center;">In apply.js and visit.js, I utilized the `let` keyword. 
+                Essentially, `let` lets you declare variables that are scoped to a specific block, such as within a function. 
+                Therefore, I chose `let` for variables that were only needed within particular blocks. 
+                For instance, I employed `let` in `for` loops to declare the variable `i` in the initialization statement. (The variables 'i'/'index' were used, both used with the same purpose in apply.js).
+                <br><br>
+                In information.js, the variable `indexofcurrent` stores the index of the currently displayed message in the `msgloop` function, allowing for smooth cycling through the messages. Using the `let` keyword ensures that `indexofcurrent` is block-scoped, preventing conflicts with other variables and enhancing code clarity and maintainability.  
+            </p>
+            <table class="table-container-3">
+                <thead>
+                <tr>
+                    <th>File</th>
+                    <th>Line</th>
+                    <th>Code snippet</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 42</td>
+                        <td>for (let i=0; i &lt; forms.length ; i++){}</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 55</td>
+                        <td>for (let i = 0; i &lt; allbtns.length; i++){}</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 191</td>
+                        <td>for (let index = 1; index &lt; gaps.length; index++) {}</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 215</td>
+                        <td>for (let index = 1; index &lt; max_rank; index++) {}</td>
+                    </tr>
+                    <tr>
+                        <td>information.js</td>
+                        <td>line 45</td>
+                        <td>let indexofcurrent = Randommsg;</td>
+                    </tr>
+                    <tr>
+                        <td>visit.js</td>
+                        <td>line 8</td>
+                        <td>for (let i = 0; i &lt; allinputs.length; i++) {}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h3>Use of 'const':</h3>
+            <p style="width: 80%; padding-left: 10%; text-align: center;">
+                `const` serves as an alternative method for declaring a variable. 
+                Variables declared with `const` possess two key characteristics: they are block-scoped (similar to `let`), and their values cannot be modified. 
+                This is why I prefer using `const` for variables that should remain unchanged. 
+                For instance, I declared the `msgs` variable as a `const`, which holds an array of all the messages to be displayed on the program page.
+            </p>
+            <table class="table-container-3">
+                <thead>
+                <tr>
+                    <th>File</th>
+                    <th>Line</th>
+                    <th>Code snippet</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 4</td>
+                        <td>const h1 = document.querySelector("#techzone");</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 5</td>
+                        <td>const h2 = document.querySelector("#innozone");</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 6</td>
+                        <td>const h3 = document.querySelector("#ecozone");</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 7</td>
+                        <td>const f3 = document.querySelector(".Ecology_Zone");</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 8</td>
+                        <td>const f2 = document.querySelector(".Innovation_Zone");</td>
+                    </tr>
+                    <tr>
+                        <td>apply.js</td>
+                        <td>line 9</td>
+                        <td>const f1 = document.querySelector(".Technology_Zone");</td>
+                    </tr>
+                    <tr>
+                        <td>information.js</td>
+                        <td>line 22</td>
+                        <td>const msgs = []</td>
+                    </tr>
+                    <tr>
+                        <td>visit.js</td>
+                        <td>line 2</td>
+                        <td>const allinputs = document.querySelectorAll('input');</td>
+                    </tr>
+                    <tr>
+                        <td>visit.js</td>
+                        <td>line 3</td>
+                        <td>const btn = document.getElementById("button1");</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h3>CSS3 techniques:</h3>
+            <table class="table-container-3">
+                <thead>
+                    <tr>
+                        <th>File</th>
+                        <th>Line</th>
+                        <th>Technique Used</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>all.css</td>
+                        <td>Line 20</td>
+                        <td>linear gradient</td>
+                    </tr>
+                    <tr>
+                        <td>all.css</td>
+                        <td>Line 130-140</td>
+                        <td>animation</td>
+                    </tr>
+                    <tr>
+                        <td>apply.css</td>
+                        <td>Line 17, 18</td>
+                        <td>border radius</td>
+                    </tr>
+                    <tr>
+                        <td>apply.css</td>
+                        <td>Line 33, 34</td>
+                        <td>border radius</td>
+                    </tr>
+                    <tr>
+                        <td>about.css</td>
+                        <td>Line 28</td>
+                        <td>box shadow</td>
+                    </tr>
+                    <tr>
+                        <td>apply.css</td>
+                        <td>Line 114</td>
+                        <td>box shadow</td>
+                    </tr>
+                    <tr>
+                        <td>program.css</td>
+                        <td>Line 46</td>
+                        <td>box shadow</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h3>Positioning Schemes:</h3>
+            <table class="table-container-3">
+                <thead>
+                    <tr>
+                        <th>File</th>
+                        <th>Line</th>
+                        <th>Positioning Used</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>all.css</td>
+                        <td>Line 8, 41, 83, 106, 111</td>
+                        <td>relative</td>
+                    </tr>
+                    <tr>
+                        <td>all.css</td>
+                        <td>Line 15, 90</td>
+                        <td>absolute</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h3>Stylesheets:</h3>
+            <table class="table-container-3">
+                <thead>
+                    <tr>
+                        <th>Page</th>
+                        <th>Line</th>
+                        <th>Stylesheet</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>All Pages</td>
+                        <td>Line 6</td>
+                        <td>all.css</td>
+                    </tr>
+                    <tr>
+                        <td>Home Page</td>
+                        <td>Line 7</td>
+                        <td>homepage.css</td>
+                    </tr>
+                    <tr>
+                        <td>About Page</td>
+                        <td>Line 7</td>
+                        <td>about.css</td>
+                    </tr>
+                    <tr>
+                        <td>Apply Page</td>
+                        <td>Line 7</td>
+                        <td>apply.css</td>
+                    </tr>
+                    <tr>
+                        <td>Apply Page</td>
+                        <td>Line 8</td>
+                        <td>printApply.css (media = "print")</td>
+                    </tr>
+                    <tr>
+                        <td>Visit Page</td>
+                        <td>Line 7</td>
+                        <td>visit.css</td>
+                    </tr>
+                    <tr>
+                        <td>Information Page</td>
+                        <td>Line 7</td>
+                        <td>program.css</td>
+                    </tr>
+                    <tr>
+                        <td>Contact Page</td>
+                        <td>Line 7</td>
+                        <td>contact.css</td>
+                    </tr>
+                    <tr>
+                        <td>Design Page</td>
+                        <td>Line 7</td>
+                        <td>design.css</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <img src="../Images/footer_logo.png" alt="Visionary Innovation Hub">
+            <p>&copy;CityU 2024 - sources of images and text from Wikipedia and Courtesy of Icon pack by Icons8 - designed by <a href="design.html">Umer Adnan</a></p>
+        </footer>
+    </body>
+</html>

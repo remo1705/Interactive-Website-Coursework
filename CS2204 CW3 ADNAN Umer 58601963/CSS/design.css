@@ -1,0 +1,45 @@
+.design>h3 {
+    margin-left: 10px;
+}
+
+.design>h2 {
+    text-align: center;
+}
+
+.table-container-3 {
+    margin: 20px auto; 
+    width: 100%;
+    max-width: 800px;
+}
+
+table {
+    align-items: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 0 auto;
+    box-shadow: 5px 5px;
+}
+thead {
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    background-color: rgb(85, 64, 116);
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+tbody {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+

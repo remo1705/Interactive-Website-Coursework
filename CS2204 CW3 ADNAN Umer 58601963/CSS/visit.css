@@ -1,0 +1,82 @@
+.welcome-4 {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.separators {
+    width: 100%
+}
+
+#d6, #d7 {
+    display: inline-block;
+    vertical-align: top; 
+    overflow: hidden;
+    width: 49%; 
+    vertical-align: top; 
+    box-sizing: border-box; 
+}
+
+#d7 {
+    padding: 20px; 
+}
+
+#d6 img {
+    padding-left: 40px;
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    #d6, #d7 {
+        width: 100%;
+        display: block;
+    }
+    
+    #d6 {
+        text-align: center;
+    }
+    
+    #d6 img {
+        padding-left: 0;
+    }
+    
+    #d7 {
+        margin-top: 20px;
+    }
+}
+
+.reservation {
+    padding-left:80px ;
+    padding-right: 80px;
+}
+
+.reservation h3 {
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.DATE label {
+    margin-left: 90px;
+}
+
+.TIME label {
+    margin-left: 87px;
+}
+
+.VISITORS label {
+    margin-left: 30px;
+}
+
+#error{
+    text-align: center;
+    color: red;
+    margin-top: 1%;
+}
+

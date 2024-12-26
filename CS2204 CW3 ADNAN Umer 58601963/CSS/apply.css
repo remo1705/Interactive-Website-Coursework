@@ -1,0 +1,192 @@
+.welcome-3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.print-only, .print-only-footer {
+    display: none;
+}
+.techzone, .innozone, .ecozone {
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    border-top: solid black;
+    border-right: solid black;
+    border-left: solid black;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.apply-container {
+    width: 100%;
+    float: left;
+}
+
+.apply-items {
+    width: 99%;
+    float: left;
+    border-left: 1px solid rgb(76, 69, 69);
+    border-right: 1px solid rgb(76, 69, 69);
+    border-bottom: 1px solid rgb(76, 69, 69);
+    margin-left: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#apply-choice {
+    width: 98.5%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-top: 1px solid rgb(76, 69, 69);
+    border-left: 1px solid rgb(76, 69, 69);
+    border-right: 1px solid rgb(76, 69, 69);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.companies>h3 {
+    margin: 15px;
+}
+
+.heading {
+    float: left;
+    width: 32%;
+    background-color: #6600cc;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-left: 0.5px solid rgb(13, 7, 7);
+
+}
+
+.Technology_Zone>form,
+.Innovation_Zone>form,
+.Ecology_Zone>form {
+    border: 1px solid black;
+    border-radius: 7px;
+    float: left;
+    padding: 2px;
+    margin: 1px;
+    width: 32%;
+    background-color: rgb(94, 50, 132);
+}
+
+.Technology_Zone>form:hover,
+.Innovation_Zone>form:hover,
+.Ecology_Zone>form:hover {
+    background-color: rgb(164, 129, 195);
+}
+
+.Technology_Zone, .Innovation_Zone, .Ecology_Zone {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#techzone:hover~.Technology_Zone,
+.Technology_Zone:hover,
+#innozone:hover~.Innovation_Zone,
+.Innovation_Zone:hover,
+#ecozone:hover~.Ecology_Zone,
+.Ecology_Zone:hover {
+    display: block;
+}
+
+.heading:hover,
+.Technology_Zone:hover~.heading,
+.Technology_Zone:hover~.techzone {
+    background-color: white;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    box-shadow: 5px 5px black;
+}
+
+.companies {
+    margin: 2%;
+}
+
+.companies table{
+    width: 100%;
+}
+
+thead {
+    color: white;
+    background-color: rgb(85, 64, 116);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+tbody {
+    border: 1px solid black;
+    text-align: center;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: rgb(129, 100, 173);
+}
+
+tbody>tr:nth-child(even):hover {
+    background-color: rgb(79, 62, 105);
+}
+
+tbody>tr:nth-child(odd):hover {
+    background-color: rgb(112, 63, 185);
+}
+
+.button {
+    display: inline-block; 
+    padding: 5px 10px;
+    margin: 5px; 
+    border: 2px solid black; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+h2 {
+    width: 20%;
+}
+
+#d5 {
+    border: 1px solid black;
+    width: 100%;
+}
+
+#d5 h2 {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(210, 123, 225);
+    border: 1px solid black; 
+    width: 30%; 
+    height: 30px;
+    font-weight: lighter;
+}
+
+form>img , form>p{
+    padding-left:4px;
+}
+
+#tberror{
+    text-align: center;
+    color: red;
+}

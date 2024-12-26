@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/all.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="../CSS/visit.css" type="text/css" media="all">
+        <script type="text/javascript" src="https://personal.cs.cityu.edu.hk/~cs2204/2023/cw3cs2204.js"></script>
+        <script type="text/javascript" src="../javascript/visit.js"></script>
+        <title>Visit</title>
+    </head>
+
+    <body>
+
+        <header>
+            <img src="../Images/logo.png" alt="Visionary Innovation Hub">
+            <h1 id="visionary">Visionary Innovation Hub</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="welcome-4">
+            <p>We warmly invite you to visit us at the Visionary Innovation Hub, located in the Kowloon High-Tech Park. Here, you'll experience our dynamic and innovative community dedicated to fostering research and entrepreneurship.</p>
+            <p>During your visit, you can explore our cutting-edge facilities, including advanced laboratories, collaborative workspaces, and specialized innovation labs. These resources are designed to support our faculty, students, and industry partners in driving technological advancements.</p>
+            <p>You'll have the opportunity to meet our esteemed faculty and industry experts, who are committed to providing essential knowledge and skills in various fields such as artificial intelligence, biotechnology, and sustainable technology. Our faculty members are recognized leaders, with their research featured in top-tier journals and conferences.</p>
+            <p>We look forward to welcoming you soon to experience the vibrant atmosphere of the Visionary Innovation Hub and see how we are shaping the future of innovation.</p>
+        </div>
+
+        <div class="separators">
+            <div id="d6">
+                <img src="../Images/location.jpg" alt="Location">
+            </div>
+            <div id="d7">
+                <h3>Location</h3>
+                <p>Address: Tat Chee Avenue, Kowloon, Hong Kong SAR</p>
+                <p>Tel: (852) 1234 5678</p>
+                <p>Fax: (852) 8765 4321</p>
+                <p>Email: visit@vih.org.hk</p>
+            </div>
+            <div class="clear"></div>
+            
+        </div>
+
+        <div class="reservation">
+            <h3>Visionary Innovation Hub is having an open day! Please make a reservation to visit our campus!</h3>
+            <fieldset>
+                <legend>Booking Information</legend>
+                <form method="get" action="#">
+                    <div class="DATE">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <br>
+                    <div class="TIME">
+                        <label for="timeSlot">Time:</label>
+                        <select id="timeSlot" name="timeSlot">
+                            <option value="09:00-10:00">09:00-10:00am</option>
+                            <option value="10:00-11:00">10:00-11:00am</option>
+                            <option value="14:00-15:00">02:00-03:00pm</option>
+                            <option value="15:00-16:00">03:00-04:00pm</option>
+                            <option value="16:00-17:00">04:00-05:00pm</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="VISITORS">
+                        <label for="number">No.of Visitors: </label>
+                        <input type="number" id="number" min="0"><br><br>
+                        <p id="error"></p>
+                    </div>
+
+                    <input id="button1" type="submit" value="Check Availability">
+                    <input id="button2" type="reset" value="Reset">
+                </form>
+            </fieldset>
+        </div>
+        <br>
+        <footer>
+            <img src="../Images/footer_logo.png" alt="Visionary Innovation Hub">
+            <p>&copy;CityU 2024 - sources of images and text from Wikipedia and Courtesy of Icon pack by Icons8 - designed by <a href="design.html">Umer Adnan</a></p>
+        </footer>
+    </body>
+</html>

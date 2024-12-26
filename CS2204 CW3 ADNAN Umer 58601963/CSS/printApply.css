@@ -1,0 +1,87 @@
+.print-only {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 150px;
+    display: block;
+    padding: 20px 0;
+}
+
+.visionary {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.print-only img {
+    display: block; 
+    margin: 0 auto; 
+    width: 400px;
+    height: 120px;
+}
+
+
+nav, .welcome-3, .apply-container, header, footer {
+    display: none;
+}
+
+
+.button {
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.print-only-footer {
+    display: block;
+    text-align: center;
+    background-color: lightgrey;
+    color: white;
+    margin: 0;
+    padding: 1%;
+}
+
+.print-only-footer img {
+    display: block; 
+    margin: 0 auto; 
+    width: 260px;
+    height: 40px;
+}
+
+.print-only-footer p {
+    position: relative;
+}
+
+.print-only-footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.print-only-footer a:active {
+    color: red; 
+    background-color: yellow;
+}
+.print-only-footer a:hover {
+    color: orange;
+}
+.print-only-footer a:visited {
+    color: blue;
+}
+
+table {
+    width: 90%;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

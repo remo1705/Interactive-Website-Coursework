@@ -1,0 +1,46 @@
+.Welcome {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.blocks {
+    width: 100%; 
+}
+
+#d1, #d2 {
+    display: inline-block;
+    vertical-align: top; 
+    overflow: hidden;
+    display: inline-block;
+    width: 49%; 
+    vertical-align: top; 
+    box-sizing: border-box; 
+}
+
+#d1 {
+    padding: 20px; 
+}
+
+#d2 img {
+    padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+    #d1, #d2 {
+        width: 100%;
+        display: block;
+    }
+    
+    #d1 {
+        text-align: center;
+    }
+    
+    #d2 img {
+        padding-left: 0;
+    }
+    
+    #d1 {
+        margin-top: 20px;
+    }
+}
+

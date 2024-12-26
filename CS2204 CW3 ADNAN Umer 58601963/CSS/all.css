@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: block;
+    padding: 20px 0;
+    position: relative;
+    overflow: hidden; /* To ensure the background doesn't overflow */
+    animation: backgroundAnimation 1s infinite alternate; /* Animation for the background */
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(270deg, #4A90E2, #9013FE, #50E3C2, #F5A623);
+    background-size: 400% 400%; /* For smooth animation */
+    z-index: 0; /* Position behind the content */
+    animation: gradientAnimation 15s ease infinite; /* Animate the gradient */
+}
+
+#visionary {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: relative; /* To keep the text above the background */
+    z-index: 1; /* Ensure text is above the background */
+}
+
+header img {
+    display: block; 
+    margin: 0 auto; 
+    width: 400px;
+    height: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    background-color: rgb(30, 30, 94);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+nav li {
+    margin: 0 15px;
+    display: inline;
+}
+
+nav a {
+    padding: 10px 35px;
+    margin: 0px 5px;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+    transition: transform 1s linear;
+    -webkit-transition: transform 1s linear;
+}
+@keyframes nav {
+    from {background-color: rgb(30, 30, 94);}
+    to {background-color: rgb(140, 97, 173);}
+  }
+
+nav a:active {
+    color: red; 
+    background-color: yellow;
+}
+nav a:hover {
+    animation-duration: 2s;
+    background-color: rgb(140, 97, 173);
+    transform: scale(1.05,1.05);
+    -webkit-transform: scale(1.05,1.05);
+    animation: nav 1s ease;
+}
+nav a:visited {
+    color: rgb(217, 125, 125);
+}
+
+footer {
+    display: block;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 1%;
+    position: relative;
+    overflow: hidden; /* To ensure the background doesn't overflow */
+    animation: backgroundAnimation 15s infinite alternate; /* Animation for the background */
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(270deg, #4A90E2, #9013FE, #50E3C2, #F5A623);
+    background-size: 400% 400%; /* For smooth animation */
+    z-index: 0; 
+    animation: gradientAnimation 15s ease infinite; /* Animate the gradient */
+}
+
+footer img {
+    display: block; 
+    margin: 0 auto; 
+    width: 260px;
+    height: 40px;
+    position: relative; /* To keep the image above the background */
+    z-index: 1; /* Ensure image is above the background */
+}
+
+footer p {
+    position: relative;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: red; 
+    background-color: yellow;
+}
+footer a:hover {
+    color: orange;
+}
+footer a:visited {
+    color: blue;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
